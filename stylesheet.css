@@ -1,0 +1,90 @@
+
+div {
+	border-radius: 5px;
+}
+
+li{
+	list-style: none;
+}
+/*smaller the heading the bigger the picture shows */
+h4{
+	color:#ff33cc;
+}
+/*choose a bright color for the paragraph text */
+p{
+	color: #ff9933;
+}
+
+
+#nav{
+	width:40%;
+	text-align: right;
+	float: right;
+	background-color: #ccff33;
+	color:white;
+}
+
+#nav li{
+	display: inline-block;
+}
+
+
+
+#header {
+	height: 50px;
+	background-color: #F38630;
+	margin-bottom: 10px;
+	width:60%;
+}
+
+.leftbar {
+	position:absolute;
+	height: 100%;
+	width: 30%;
+	background-color: #A7DBD8;
+	float: left;
+	margin-bottom: 10px;
+	font-family: 'Poiret One', cursive;
+	
+}
+
+.rightbar {
+	height: 100%;
+	width: 70%;
+	background-color: #E0E4CC;
+	float: right;
+	margin-bottom: 10px;
+	font-family: 'Poiret One', cursive;
+	/*why doesnt this work*/
+}
+
+.rightbar img{
+	width:100%;
+	height:auto;
+	
+}
+
+#footer {
+	height: 50px;
+	width:100%;
+	background-color: #69D2E7;
+	float:left;
+	clear:both;
+}
+/*contact image div */
+#pgImage img{
+	width:40%;
+	height:auto;
+}
+#container{
+	width:80%;
+	height: 80%;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+/* resize review page image */
+
+#rImage {
+	width:auto;
+	height:auto;
+}
